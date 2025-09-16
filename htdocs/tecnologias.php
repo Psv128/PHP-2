@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,13 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <!-- Cabecera común -->
     <header>
         <?php
         include 'cabecera.inc.php';
-        
         ?>
     </header>
     <main>
+        <!-- Sección principal: lista ordenada de tecnologías -->
         <section>
             <ol>
                 <li>MySQL</li>
@@ -22,6 +24,7 @@
                 <li>Github</li>
             </ol>
         </section>
+        <!-- Navegación para volver al inicio -->
         <nav>
             <h2>Mis páginas:</h2>
             <ul>
@@ -30,9 +33,10 @@
         </nav>
     </main>
 </body>
+<!-- Pie de página común -->
 <footer>
         <?php 
         include 'footer.inc.php'; 
         ?>
-    </footer>
+</footer>
 </html>

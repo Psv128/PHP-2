@@ -1,6 +1,8 @@
+
 <style>
+    /* Estilos para el pie de página */
     footer {
-        background-image: ;
+        background-image: ; /* Puedes agregar una imagen de fondo si lo deseas */
         color: #000000;
         padding: 20px 0;
         text-align: center;
@@ -10,6 +12,7 @@
     }
 </style>
 <?php
+// Obtener el nombre del día de la semana en español
 $diaSemana = '';
 switch (date('w')) {
     case 0: $diaSemana = 'domingo'; break;
@@ -21,6 +24,7 @@ switch (date('w')) {
     case 6: $diaSemana = 'sábado'; break;
 }
 
+// Obtener el nombre del mes en español
 $mes = '';
 switch (date('n')) {
     case 1: $mes = 'enero'; break;
@@ -37,8 +41,10 @@ switch (date('n')) {
     case 12: $mes = 'diciembre'; break;
 }
 
+// Obtener el día y el año
 $dia = date('d');
 $anio = date('Y');
 
+// Mostrar la fecha en formato español
 echo "$diaSemana, $dia de $mes de $anio";
 ?>

@@ -1,6 +1,8 @@
+
 <style>
+    /* Estilos para el encabezado de la página */
     header {
-        background-image: ;
+        background-image: ; /* Puedes agregar una imagen de fondo si lo deseas */
         color: #000000;
         padding: 20px 0;
         text-align: center;
@@ -9,6 +11,7 @@
         border-radius: 10%;
     }
 </style>
-    
-    <h1>/// PABLO SOLÍS ///</h1>
+
+<!-- Título principal del sitio -->
+<h1>/// PABLO SOLÍS ///</h1>
     
